@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div >
+        <audio id="controls" controls>
+            <source src="music/m1.mp3" type="audio/mp3">
+            <source src="music/m2.mp3" type="audio/mp3">
+        </audio>
+        <h1>Учись считать!</h1>
+        </div>
+        <div id="wraper-selection">
+            <button class="selection activebtn" data-id="1">складуем до 10</button>
+            <button class="selection" data-id="2">складуем до 20</button>
+        </div>
+        <button id="gameOne">Начать игру</button>
+        <div class="wraper">
+            <div class="content1">
+                <img class="number active" src="img/gif/zifry.gif" data-id="0">
+                <img class="number disabled" src="img/z2.png" data-id="1">
+                <img class="number disabled" src="img/z2.png" data-id="2">
+                <img class="number disabled" src="img/z2.png" data-id="3">
+                <img class="number disabled" src="img/z2.png" data-id="4">
+                <img class="number disabled" src="img/z2.png" data-id="5">
+                <img class="number disabled" src="img/z2.png" data-id="6">
+                <img class="number disabled" src="img/vopros.png" data-id="7"> 
+            </div>
+            <button id="answerBtn" data-id="2">Ответить</button>
+           
+        </div>
+        <div class="wraper2">
+            <div class="content2">
+                <img class="btnAnswer" data-id="0"src="img/z0.png">
+                <img class="btnAnswer" data-id="1"src="img/z1.png">
+                <img class="btnAnswer" data-id="2"src="img/z2.png">
+                <img class="btnAnswer" data-id="3"src="img/z3.png">
+                <img class="btnAnswer" data-id="4"src="img/z4.png">
+                <img class="btnAnswer" data-id="5"src="img/z5.png">
+                <img class="btnAnswer" data-id="6"src="img/z6.png">
+                <img class="btnAnswer" data-id="7"src="img/z7.png">
+                <img class="btnAnswer" data-id="8"src="img/z8.png">
+                <img class="btnAnswer" data-id="9"src="img/z9.png">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
